@@ -1,5 +1,6 @@
 # Conway's Game of Life with OpenMP
 
+
 ## Introduction
 
 The Game of Life, a cellular automaton created by mathematician John Conway, provides an excellent environment for investigating parallel computing approaches. This project uses OpenMP, a popular parallel programming API for shared-memory systems, to optimize the simulation of Conway's Game of Life.
@@ -15,6 +16,7 @@ In this project, we implement the Game of Life algorithm in C and parallelize it
 
 Through this project, we aim to demonstrate the effectiveness of OpenMP for parallelizing computational tasks, using the Game of Life as a concrete example. By understanding how parallelization techniques can be applied to real-world problems like cellular automata simulations, learners can gain valuable insights into parallel programming concepts and practices.
 
+
 ## Rationale Behind Design Choices
 
 The design choices in this project were made with several key considerations in mind, each aimed at achieving efficient parallelization of the Game of Life simulation using OpenMP. Here's the rationale behind these choices:
@@ -29,7 +31,9 @@ The design choices in this project were made with several key considerations in 
 
 These design choices aim to balance simplicity, performance, and scalability. By parallelizing the most computationally intensive part of the algorithm and optimizing memory usage, the implementation seeks to leverage the capabilities of modern multi-core processors to achieve efficient parallel execution of the Game of Life simulation.
 
+
 ## Observations
+
 
 ### Identified Drawbacks of the Approach:
 
@@ -37,11 +41,13 @@ These design choices aim to balance simplicity, performance, and scalability. By
 2. **Load Imbalance**: Due to the nature of the Game of Life rules, cells at the edges of the grid have fewer neighbors and thus less computational work compared to cells in the center. This can lead to load imbalance among the threads, with some threads finishing their work earlier and idling while others are still processing.
 3. **Memory Bandwidth Limitation**: The approach involves frequent swapping of arrays between time steps to avoid unnecessary memory copying. However, this technique may incur overhead due to memory bandwidth limitations, especially for large grid sizes where the size of the arrays becomes significant.
 
+
 ### Identified Advantages of the Approach:
 
 1. **Simplicity**: The approach leverages OpenMP directives for parallelization, making it simple to implement and understand. By using pragma directives, the parallelism is added without major restructuring of the code, enhancing maintainability and readability.
 2. **Efficient Memory Usage**: The use of an array swapping technique for temporal locality minimizes memory overhead and enhances cache performance. This results in efficient memory usage, especially for large grid sizes and long simulation durations.
 3. **Scalability**: Despite the limitations of the algorithm, the approach demonstrates reasonable scalability with increasing numbers of threads for smaller grid sizes. This suggests that for problems where parallelism can be effectively exploited, the approach can scale well with the available hardware resources.
+
 
 ### Role of NLP Concepts
 
@@ -50,6 +56,7 @@ Natural Language Processing (NLP) concepts play a significant role in the contex
 1. **Pattern Recognition**: NLP techniques such as text analysis and pattern recognition can be applied to analyze the emergent patterns in the Game of Life simulations. By treating the grid configurations as textual data, NLP algorithms can identify recurring patterns, gliders, oscillators, and other interesting structures.
 2. **Semantic Analysis**: NLP can aid in extracting semantic meaning from the evolving grid configurations. By analyzing the spatial relationships between cells and the changes in patterns over time, NLP algorithms can provide insights into the dynamics of the Game of Life and its underlying rules.
 3. **Visualization and Interpretation**: NLP techniques can be used to process and interpret textual representations of Game of Life simulations. By converting grid configurations into natural language descriptions or visualizations, NLP algorithms can facilitate human understanding of the simulation results and enable qualitative analysis of complex behaviors.
+
 
 ## Sample Outputs
 
@@ -83,3 +90,23 @@ While the parallelization technique effectively spreads computational demand acr
 Moving ahead, additional optimizations and alternate parallelization methodologies could be investigated to overcome the highlighted limits. Techniques such as domain decomposition, task-based parallelism, and hybrid parallel models may improve parallel efficiency and scalability, especially for higher grid sizes and more complicated simulation scenarios.
 
 Overall, this study emphasizes the significance of considering both algorithmic aspects and parallelization options while solving computational challenges. Researchers and practitioners can progress in the area of parallel computing and improve our understanding of complex systems by iteratively improving and optimizing implementations such as Conway's Game of Life.
+
+
+## Contributing
+
+ We welcome your contributions to [Project Procrastinate](https://github.com/rakshit-ayachit/project_procrastinate)! Start by forking the repository, cloning it to your local machine, creating a new branch, making your changes, and committing them. Then, push your changes to your fork on GitHub and create a pull request. Your contributions will be reviewed and, once approved, merged into the main project. Thank you for your help!
+## Contributors and Contact
+
+A big thank you to the following contributors who have helped improve this project:
+
+- Kanha Aggarwal ([@rakshit-ayachit](https://github.com/rakshit-ayachit)) - [rakshit@ayachit@gmail.com](mailto:rakshitayachit@gmail.com)
+- Devank Bhatia ([@s0naksh1](https://github.com/s0naksh1)) - [sonakshibadlani@gmail.com](mailto:sonakshibadlani@gmail.com)
+
+Your contributions are greatly appreciated!
+
+Feel free to contact me ([Parshva Mody](mailto:parshva.p.mody@gmail.com)) or any of the contributors for further information or support regarding this project.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
