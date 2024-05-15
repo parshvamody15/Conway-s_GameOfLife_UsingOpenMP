@@ -1,5 +1,18 @@
 # Conway's Game of Life with OpenMP
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Rationale Behind Design Choices](#Rationale-Behind-Design-Choices)
+- [Observations](#Observations)
+  - [Identified Drawbacks of the Approach](#Identified-Drawbacks-of-the-Approach)
+  - [Identified Advantages of the Approach](#Identified-Advantages-of-the-Approach)
+  - [Role of NLP Concepts](#Role-of-NLP-Concepts)
+- [Sample Outputs](#Sample-Outputs)
+- [Conclusion](#Conclusion)
+- [Contributing](#contributing)
+- [License](#license)
+
 
 ## Introduction
 
