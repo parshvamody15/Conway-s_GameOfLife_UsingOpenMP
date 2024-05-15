@@ -11,6 +11,7 @@
 - [Sample Outputs](#Sample-Outputs)
 - [Conclusion](#Conclusion)
 - [Contributing](#contributing)
+- [Contributors and Contact](#Contributors-and-Contact)
 - [License](#license)
 
 
@@ -108,6 +109,8 @@ Overall, this study emphasizes the significance of considering both algorithmic 
 ## Contributing
 
  We welcome your contributions to [Conway's_GameOfLife_UsingOpenMP](https://github.com/parshvamody15/Conway-s_GameOfLife_UsingOpenMP)! Start by forking the repository, cloning it to your local machine, creating a new branch, making your changes, and committing them. Then, push your changes to your fork on GitHub and create a pull request. Your contributions will be reviewed and, once approved, merged into the main project. Thank you for your help!
+
+
 ## Contributors and Contact
 
 A big thank you to the following contributors who have helped improve this project:
