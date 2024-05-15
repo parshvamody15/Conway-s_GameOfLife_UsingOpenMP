@@ -109,4 +109,4 @@ Feel free to contact me ([Parshva Mody](mailto:parshva.p.mody@gmail.com)) or any
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/parshvamody15/Conway-s_GameOfLife_UsingOpenMP/blob/main/LICENSE.txt).
