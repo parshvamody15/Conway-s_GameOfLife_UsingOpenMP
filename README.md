@@ -54,22 +54,19 @@ Natural Language Processing (NLP) concepts play a significant role in the contex
 ## Sample Outputs
 
 <img width="476" alt="image" src="https://github.com/parshvamody15/Conway-s_Game_Of_Life/assets/96692139/7be2e9dd-0597-4e74-bb41-a3c9df01bc7f">
-Output showing execution time with increasing number of threads
 
+Output showing execution time with increasing number of threads
 Grid size: 500 x 500 and Number of time steps: 100
-![image](https://github.com/parshvamody15/Conway-s_Game_Of_Life/assets/96692139/597cf123-a46f-470b-9cd1-3214ed05ec18)
 
 <img width="483" alt="image" src="https://github.com/parshvamody15/Conway-s_Game_Of_Life/assets/96692139/9288b738-13e0-44e4-9717-d5fa8ecf4baf">
-Output showing execution time with increasing number of threads
 
+Output showing execution time with increasing number of threads
 Grid size: 4000 x 4000 and Number of time steps: 100
-![image](https://github.com/parshvamody15/Conway-s_Game_Of_Life/assets/96692139/f87fd6f2-75f8-4b4a-98d1-99fc42c01ae3)
 
 <img width="452" alt="image" src="https://github.com/parshvamody15/Conway-s_Game_Of_Life/assets/96692139/2d5ec364-9cc9-4462-9d98-f9c8d16a332d">
-Output showing execution time with increasing number of threads
 
+Output showing execution time with increasing number of threads
 Grid size: 8000 x 8000 and Number of time steps: 100
-![image](https://github.com/parshvamody15/Conway-s_Game_Of_Life/assets/96692139/7df71de5-ae4a-48d1-bc88-dc3352b07c96)
 
 ## Conclusion
 
