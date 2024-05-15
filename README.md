@@ -116,7 +116,7 @@ Overall, this study emphasizes the significance of considering both algorithmic 
 A big thank you to the following contributors who have helped improve this project:
 
 - Kanha Aggarwal ([@rakshit-ayachit](https://github.com/rakshit-ayachit)) - [rakshit@ayachit@gmail.com](mailto:rakshitayachit@gmail.com)
-- Devank Bhatia ([@s0naksh1](https://github.com/s0naksh1)) - [sonakshibadlani@gmail.com](mailto:sonakshibadlani@gmail.com)
+- Devank Bhatia ([@devankbhatia](https://github.com/devankbhatia)) - [devankbhatia@gmail.com](mailto:devankbhatia@gmail.com)
 
 Your contributions are greatly appreciated!
 
