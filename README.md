@@ -94,7 +94,7 @@ Overall, this study emphasizes the significance of considering both algorithmic 
 
 ## Contributing
 
- We welcome your contributions to [Project Procrastinate](https://github.com/rakshit-ayachit/project_procrastinate)! Start by forking the repository, cloning it to your local machine, creating a new branch, making your changes, and committing them. Then, push your changes to your fork on GitHub and create a pull request. Your contributions will be reviewed and, once approved, merged into the main project. Thank you for your help!
+ We welcome your contributions to [Conway's_GameOfLife_UsingOpenMP](https://github.com/parshvamody15/Conway-s_Game_Of_Life)! Start by forking the repository, cloning it to your local machine, creating a new branch, making your changes, and committing them. Then, push your changes to your fork on GitHub and create a pull request. Your contributions will be reviewed and, once approved, merged into the main project. Thank you for your help!
 ## Contributors and Contact
 
 A big thank you to the following contributors who have helped improve this project:
